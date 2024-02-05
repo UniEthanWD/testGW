@@ -1,0 +1,209 @@
+﻿title: Start
+tags:
+position: -365,-814
+---
+
+        Opponent: Hello there for the crimes that you have commited and I have definatly not made up. How do you plea? 
+    -> definatly not guilty after all look at me do you think I am a man that will do these kinds of things? 
+            <<jump bad1>>
+     -> I got a notice that I did something that I could not have done!I can prove it!.
+            <<jump good1>>
+      
+===
+
+title: bad1
+position: 249,-563
+---
+         Opponent: Well this picture tells a different story 
+            <<jump part2>>
+===
+title:good1
+position: 124,-857
+---
+        Opponent: With all due repect incriminating evidence I have here tells us otherwise. No lie you speak will help you here
+    ->Until I will never answer your questions 
+        <<jump bad1>>
+    ->With all due respect I do not understand I have been consolting with assosiations about the up and coming event to raise awarness in deforesting. 
+        <<jump good2>>
+===
+
+
+
+title:good2
+
+position: 428,-952
+---
+        Opponent: Well that IS a supprise after all do you have the proof you need to back your claims. After all THIS PICTURE STATES otherwise #line:09d407e 
+        <<jump part2>>
+===
+
+title: part2
+position: 812,-848
+---
+        Opponent: Well firstly so that everyone here understands this guys EVIL DEEDS this is a photograph that seems to show a certain person making a deal with the deforesters to deforest the local park just outside with city. This is incriminating evidence right here. #line:0bd4238 
+    -> WHA whu wHaT he doesnt even look like me... 
+        <<jump bad2>>
+    -> What ever happened to proof in your hands is obviously a lie and I CAN PROVE that your incriminating evidence is forged
+        <<jump good3>>
+===
+
+title: bad2
+
+position: 1789,-351
+---
+Opponent: Yes keep shaking you may be up there now behind your gaurds but your all alone. Isnt that right everyone
+<<jump crowd>>
+===
+
+title:crowd
+position: 1834,0
+---
+crowd: YEH 
+crowd2: LETS GET UP THERE AND DRAG HIM DOWN here
+crowd3: Unforgivable
+crowd4: booo
+<<jump bad3>> 
+===
+title: good3
+position: 811,-148
+---
+Opponent: oh can you now? 
+Opponent: well ill give it too you 
+Opponent: you know how to stay calm *smiles*
+
+    ->Well one of us has to
+        <<jump bad3>>
+    ->Well that is one interesting photograph may I take a look?
+        <<jump quesstionback>>
+
+===
+
+title: bad3
+position: 1301,-125
+---
+Opponent: What do you mean by that? Do you mean to say that your  TRYING to stay calm understanding how bad your situation is?
+<<jump crowdboo>>
+===
+
+title: crowdboo
+position: 1283,118
+---
+Gaurd1: Maybe the director is not what we thought he is
+Gaurd2: shut it dont make this any worse than it is right now
+Opponent: SEE even your own gaurds are worried about this you know? Maybe the best action here is for you to step down.
+<<jump badquestion>>
+===
+title: quesstionback
+position: 605,298
+---
+Opponent: Absolutly not! 
+-> Why so defensive?
+Opponent:You will... you will just delete the evidence i have on you?
+        -> I cannot belive you will hide evidence come on let me see it now
+             <<jump badquestion>>
+        -> I never said I wanted to take it. Just want to see the "evidence" you have. I feel I of all people would need to know
+            <<jump goodquestion>>    
+    
+===
+
+title: badquestion
+position: 996,156
+---
+
+Crowd: *murmmers*
+crowd: *loudnoises*
+<<jump bad6>>
+===
+
+
+title: goodquestion
+position: 286,591
+---
+Crowd1: hang on why does the interviewer look tense?
+crowd2: Wait maybe he has no idea and being set up
+crowd3: No that picture looks real and its clearly HIM
+crowd4: But isnt there like those photo apps that change stuff in photos?
+crowed3: yeh .... but 
+Opponent: ... There is no need for this picture to leave my hands 
+    ->interesting 
+Opponent: What?
+    ->Its just as much as you know about me i know quite a bit about you too
+<<jump pressingatk>>
+===
+
+title: bad6
+position: 1032,340
+position: 1650,378
+---
+<<wait  10>>
+Opponent: looks like our time is almost up I dont want your answer 
+Opponent: *low voice* good luck ex president ill look after her for you 
+Opponent: *low EVIL laugh*
+<<jump badend>>
+===
+
+title: pressingatk
+position: 733,587
+---
+Opponent: this is not about me this is...
+    -> john smith, age 29 works at a little company you might of heard of
+    Opponent: i mean my name is popular so i can see that being easy to rememm--
+    -> ch33kyinc yes thats right MY company in fact I seem to remember your father got you your job at my company.
+    Opponent: i have not idea what..
+    -> Understand this lady and gentalmen this photo seems very familiar to me. I why you would ever use that one.
+    Opponent: This photo is of you ..
+    ->That photo was something I gave you Right before a little change happend at my company.
+<<jump att2>> 
+
+===
+
+title:att2
+position: 995,631
+---
+-> after all you were not welcome back after i gave you that photo. 
+Crowd: He gave him the photo? 
+crowd2: Why would he give him evidence about him...
+Opponent: why would you ever give me your downfall after you fired me?
+-> AH perfect you just said i fired you so there is your motive. 
+Crowd: *confused wispers*
+-> Infact your burining revenge made you do a little edit of that photo correct
+Opponent: *nervus* no this photo is obviously ...
+-> John understand that that proof can be disproven in mulitple ways. 
+<<jump choice>>
+===
+
+title: choice
+position: 1627,261
+---
+    ->proof of the REAL photo from your mobile phone
+        <<jump endinganger>>
+    ->photo dismantlement 
+         <<jump endingSetRight>>
+===
+title: badend
+position: 1952,480
+---
+Voice: The Opponent took the chair of ch33kyinc only relising now that that person was the guy you fired for finding the photo that he framed on you.
+<<jump END>>
+===
+
+title: endinganger
+position: 2329,307
+---
+Voice: After the crowd reached a calm you proceed to dismantle every flimzy argument that john gave. Unfortunatly the crowd turned on him draging him away to a fate unknown
+Voice: you never saw him again
+<<jump END>>
+===
+title: endingSetRight
+position: 1677,793
+---
+Voice: After relising that the crowd may turn on him insted of you you took action and dispersed the crowd. Not that you would forgive him but you might of not forgiven yourself if simething happend
+Voice: After your LAST warning you never heard from hom again.
+<<jump END>>
+===
+
+title:END
+position: 2687,567
+---
+<<stop>>
+===
